@@ -22,7 +22,7 @@ git config user.email "EMAIL ADDRESS"                     ----------> for just a
 git config --global user.email                            ----------> for all repositories
 git config --global user.name                             ----------> for all repositories
 git config --global user.signingkey
-git remote -v                                             ----------> for verbus
+git remote -v                                             ----------> -v: verbose
 git remote add origin ADDRESS OF GIT's SITE
 git show COMMIT HASH                                      ----------> for example: 4a7b7bad55a0a16409f6603592116cc5a20e95ab
 git show VERSION                                          ----------> ex: git show v1.8, that shows signing message
