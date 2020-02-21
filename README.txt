@@ -52,4 +52,13 @@ git pull remote master --allow-unrelated-histories        ----------> for resolv
 git merge source-branch && git branch -d source-branch    ----------> merge and delete a branch in one line
 git push <remote_name> --delete <branch_name>             ----------> delete a remote branch
 git config --global credential.helper store               ----------> Store user and password
+------------------------------------------
+git branch --merged master                                ----------> lists branches merged into master
+
+git branch --merged                                       ----------> lists branches merged into HEAD (i.e. tip of current branch)
+
+git branch --no-merged                                    ----------> lists branches that have not been merged
+
+By default this applies to only the local branches. The -a flag will show both local and remote branches, and the -r flag shows only the remote branches.
+------------------------------------------
 
