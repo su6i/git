@@ -1,7 +1,7 @@
 git init
 git status
 git add FILENAME
-git add -A or .                                        ----------> -A or just  ".": add all files	
+git add -A or .                                   ----------> -A or just  ".": add all files	
 git commit -S -m 'COMMENT'                        ----------> -m: Comment, -S: Signing
 git log
 git diff HEAD
@@ -11,6 +11,7 @@ git checkout -- FILENAME
 git branch
 git branch BRANCHNAME
 git checkout BRANCHNAME
+git checkout -b BRANCHNAME                        ----------> -b: create a new branche and checkout into it
 git merge BRANCHNAME                              ----------> When we are in the master and want to merge files from other branches
 git branch -d BRANCHNAME                          ----------> remove a branch
 git clone ADDRESS OF A GIT PAGE
