@@ -61,4 +61,5 @@ git branch --no-merged                                    ----------> lists bran
 
 By default this applies to only the local branches. The -a flag will show both local and remote branches, and the -r flag shows only the remote branches.
 ------------------------------------------
+git checkout --ours (theirs) FILENAME                    ----------> to resolve a conflict, when we want to use the file that is in our branch by --ours, and when we want to use the file that is in another branch with --theirs keyword
 
