@@ -47,18 +47,14 @@ git bisect good
 ------------------------------------------ 
 git help COMMAND                                          ----------> find help about a COMMAND, ex: git help remote
 git ls-files -u 				                                  ----------> HashID of 3 stages
-
 git pull remote master --allow-unrelated-histories        ----------> for resolving error "fatal: refusing to merge unrelated histories"
 git merge source-branch && git branch -d source-branch    ----------> merge and delete a branch in one line
 git push <remote_name> --delete <branch_name>             ----------> delete a remote branch
 git config --global credential.helper store               ----------> Store user and password
 ------------------------------------------
 git branch --merged master                                ----------> lists branches merged into master
-
 git branch --merged                                       ----------> lists branches merged into HEAD (i.e. tip of current branch)
-
 git branch --no-merged                                    ----------> lists branches that have not been merged
-
 By default this applies to only the local branches. The -a flag will show both local and remote branches, and the -r flag shows only the remote branches.
 ------------------------------------------
 git checkout --ours (theirs) FILENAME                    ----------> to resolve a conflict, when we want to use the file that is in our branch by --ours, and when we want to use the file that is in another branch with --theirs keyword
