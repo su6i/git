@@ -4,3 +4,5 @@
 ------------------------------------------------------
 Persian video training:
 - ParsClick YouTube channel: [Git آموزش گیت](https://www.youtube.com/watch?v=4gJyqgBIeuI&list=PL3Y-E4YSE4wYFlcomsBtJy1nCu3jclA8L&index=1)
+- Faradars: [Git - By Jadi - فرادرس
+](https://www.youtube.com/watch?v=utuny8WH-3U&list=PLwSYhER2SPaOQ5MMh29DqpYbpExXthlqW)
