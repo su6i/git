@@ -62,3 +62,7 @@ git checkout --ours (theirs) FILENAME                    ----------> to resolve 
 git fetch --all                                          ----------> Force tu pull from origin and overwrite all local files
 git reset --hard origin/master
 ------------------------------------------
+git rm --cached giant_file                               ----------> To remove a file from remote
+git commit --amend -CHEAD
+git push
+------------------------------------------
