@@ -8,6 +8,7 @@ git diff HEAD
 git diff --staged
 git reset FILENAME
 git checkout -- FILENAME
+git commit --amend                                       ----------> --amend: change the last commit message   
 git branch
 git branch BRANCHNAME
 git checkout BRANCHNAME
