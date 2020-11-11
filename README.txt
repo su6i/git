@@ -66,4 +66,16 @@ git reset --hard origin/master
 git rm --cached giant_file                               ----------> To remove a file from remote
 git commit --amend -CHEAD
 git push
+------------------------------------------   
+git submodule add https://github.com/example-username/example-repository   
+ git diff --cached --submodule : If you don’t want to type `--submodule` every time you run git diff, you can set it as the default format by setting the `diff.submodule` config value to "log". `git config --global diff.submodule log`
+ git commit -am 'Add example-repository module'
+ 
+There is two to clone a repository with sub-modules:
+ First way:
+  git clone https://github.com/chaconinc/MainProject
+  git submodule init
+  git submodule update
+ Second way:
+ git clone --recurse-submodules https://github.com/example-username/MainProject
 ------------------------------------------
