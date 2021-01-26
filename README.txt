@@ -79,3 +79,4 @@ There is two to clone a repository with sub-modules:
  Second way:
  git clone --recurse-submodules https://github.com/example-username/MainProject
 ------------------------------------------
+git checkout -b <new_branch> <commit_sha>                 ----------> To create a new branch from a commit 
